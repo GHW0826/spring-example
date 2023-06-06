@@ -1,0 +1,12 @@
+
+
+# CGLIB
+spring:
+  main:
+    allow-circular-references: true
+  aop:
+    proxy-target-class: true
+  #  -> false JDK
+  config:
+    import:
+      - db.yml
